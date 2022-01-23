@@ -1,0 +1,37 @@
+------------terminal comandos instalação---------------
+*npm i --save vuex@3.0.1 -E   = instalando o vueX,save:para salvar no arquivo, -E:instalar a versão exata
+
+
+
+*Store: é o state central da aplicação quando é usado em varios lugares
+ do projeto com vuex.store.. state{}
+  enviado para componente template diretamente usando 
+ ex:this.$store.state.produto..
+
+*MapGetters:como as computed, executa na store para getters{... codigo}
+e são colocadas apenas em computeds e servem para apenas pegar dados do stores
+do tipo quer pegar algum dado da store como total 
+por exemplo ou apenas algo especifico dessa store 
+
+*MapMutations: faz alterações ediçoes  diretas no estado com mutations 
+dai sim são ediçoes do store diretamente com uso commit ou dispatch
+ou mapMutatios, ou seja mutation só altera estado nada mais
+
+*MapActions: é possivel colocar regras q seriam ediçoes em si, ou seja
+o componente faz dispatch para action q cria a regra e envia para mutation
+q edita essa regra no state store, 
+resumindo actions cria regras e mutations fazem alteração estado
+
+*Actions para backend: tbm faz chamadas ajax pegar metodo assincrono 
+para colocar diretamente no componente
+
+
+
+
+
+
+
+
+
+
+
